@@ -54,7 +54,7 @@ jobs:
           path: |
             quartz-engine/node_modules
             quartz-engine/.quartz/plugins
-          key: quartz-deps-9cf87ff1c248a8ca551093214b0fec3b31415009-\${{ hashFiles('quartz.lock.json') }}
+          key: quartz-deps-9cf87ff1c248a8ca551093214b0fec3b31415009-${{ hashFiles('quartz.lock.json') }}
           restore-keys: |
             quartz-deps-9cf87ff1c248a8ca551093214b0fec3b31415009-
 
@@ -64,6 +64,13 @@ jobs:
           # CreatedModifiedDate discovers the wiki git history (not the engine's).
           rm -rf quartz-engine/content
           cp quartz.config.yaml quartz.lock.json quartz-engine/
+          if [ -d quartz/styles ]; then
+            cp -R quartz/styles/. quartz-engine/quartz/styles/
+          fi
+          if [ -d quartz/static ]; then
+            mkdir -p quartz-engine/quartz/static
+            cp -R quartz/static/. quartz-engine/quartz/static/
+          fi
 
       - name: Install dependencies
         if: steps.quartz-deps-cache.outputs.cache-hit != 'true'

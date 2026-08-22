@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Computação em nuvem
+  pageTitle: computação em nuvem
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: pt-BR
   baseUrl: kayronmagl.github.io/studying-cloud-computing
   ignorePatterns:
     - private
@@ -143,6 +143,12 @@ plugins:
     enabled: true
   - source: github:quartz-community/og-image
     enabled: true
+    options:
+      colorScheme: darkMode
+      width: 1200
+      height: 630
+      defaultTitle: computação em nuvem
+      defaultDescription: Notas técnicas sobre fundamentos, AWS, redes, segurança, arquitetura, custos e governança em computação em nuvem.
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
