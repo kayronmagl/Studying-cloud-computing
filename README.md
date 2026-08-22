@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=header&color=0:5C5C5C,50:6F6F6F,100:828282&animation=twinkling" alt="Cabeçalho do projeto" />
 
-# computação em nuvem
+# Computação em nuvem
 
 </div>
 
