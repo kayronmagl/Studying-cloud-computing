@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: computação em nuvem
+  pageTitle: Computação em nuvem
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -147,7 +147,7 @@ plugins:
       colorScheme: darkMode
       width: 1200
       height: 630
-      defaultTitle: computação em nuvem
+      defaultTitle: Computação em nuvem
       defaultDescription: Notas técnicas sobre fundamentos, AWS, redes, segurança, arquitetura, custos e governança em computação em nuvem.
   - source: github:quartz-community/cname
     enabled: true
