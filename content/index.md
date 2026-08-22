@@ -26,7 +26,7 @@ A base do assunto está na relação entre infraestrutura, redes, segurança, AW
   <a href="https://www.instagram.com/kayronmagl">
     <img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=828282" alt="Instagram">
   </a>
-  <a href="mailto:kayronsouza99@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kayronsouza99@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=828282" alt="Gmail">
   </a>
   <a href="https://discord.com/users/1250928543760908369">
