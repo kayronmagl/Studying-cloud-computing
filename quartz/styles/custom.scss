@@ -200,6 +200,15 @@ article svg {
   height: auto !important;
 }
 
+article img[src*="img.shields.io"],
+.popover-hint img[src*="img.shields.io"] {
+  width: auto !important;
+  max-width: 100% !important;
+  height: 28px !important;
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
 table {
   display: block;
   width: 100%;
