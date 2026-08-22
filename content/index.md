@@ -1,14 +1,16 @@
 ---
-title: Computação em nuvem
+title: computação em nuvem
 ---
-Aqui você encontra minhas notas de estudo sobre **computação em nuvem**, reunindo conteúdos do programa **Treina Brasil** em parceria com a **Santander Open Academy** e aprendizados do meu curso técnico de computação em nuvem pelo **IFCE**.
+Aqui você vai aprender e se aprofundar em **computação em nuvem** com minhas notas de tudo que estudei até aqui no programa do **Treina Brasil** em parceria com a **Santander Open Academy** e também alguns aprendizados do meu curso técnico de computação em nuvem pelo **IFCE**.
 
-Computação em nuvem é o uso de recursos de tecnologia pela internet, como servidores, armazenamento, redes, bancos de dados, segurança e ferramentas de operação. Esses recursos continuam existindo em infraestrutura física real, mas são consumidos como serviços configuráveis.
-
-A base do assunto está na relação entre infraestrutura, redes, segurança, AWS, custos, bancos de dados e serviços.
+**Antes de tudo**, entenda como funciona: **a página principal** (O que é computação em nuvem) é destinada a abordar o conteúdo de forma levemente superficial, nas notas, o aprofundamento é maior e todas se complementam.
 
 **Comece por**  
 [[O que é computação em nuvem]]
+
+Aproveitem o conteúdo, espero que ajude!
+
+sugestões são muito bem-vindas.
 
 
 <details>
